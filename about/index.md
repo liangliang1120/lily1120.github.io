@@ -1,7 +1,7 @@
-# Liang(Lily) Gu
-Email: [guliang1120@gmail.com](mailto:guliang1120@gmail.com)
-LinkedIn: [linkedin.com/in/lily-gu-59622212b](https://www.linkedin.com/in/lily-gu-59622212b)
-GitHub: [github.com/liangliang1120](https://github.com/liangliang1120)
+# Liang (Lily) Gu
+- Email: [guliang1120@gmail.com](mailto:guliang1120@gmail.com)
+- LinkedIn: [linkedin.com/in/lily-gu-59622212b](https://www.linkedin.com/in/lily-gu-59622212b)
+- GitHub: [github.com/liangliang1120](https://github.com/liangliang1120)
 
 ## SKILLS LIST
 - Language: Python, SQL, JAVA, JavaScript, HTML
@@ -48,17 +48,17 @@ ChenYuan Financial Information Technology Co., Ltd, Shanghai, China
 **Video on Demand System**
 - 01/2023 – 05/2023
 - A demo project of YouTube-like portal with Django, PostgreSQL and MinIO on Kubernetes.
-- Technology stack involved: Kubernetes, Cloud, Django, HTML, CSS, Prometheus, Grafana
+- Technology stack involved: **Kubernetes, Cloud, Django, HTML, CSS, Prometheus, Grafana**
 - Trigger Kubernetes task to process video and streaming video. Show processes and status of Pod.
 
 **Data validation system**
 - 12/2020 – 12/2021
 - A system helps verify correctness and integrity of the data returned by exchange.
-- Technology stack involved: Java, Spring Boot, Spring JDBC, RestAPI, MySQL, React
+- Technology stack involved: **Java, Spring Boot, Spring JDBC, RestAPI, MySQL, React**
 - Composed and implemented a set of data check rules for stock, bond and other financial derivatives to ensure data integrities. Collaborated with cross-functional teams to define, test and finalize the rules.
 
 **Stock Market Indicators**
 - 02/2021 – 04/2021
 - A system to check indicator data consistency across different mobile platforms.
-- Technology stack involved: Django, Python, Pandas, Numpy
+- Technology stack involved: **Django, Python, Pandas, Numpy**
 - Implemented key algorithms for a trading app including KDJ, MACD, BOLL, etc. Help save 2 hours of work per day.
