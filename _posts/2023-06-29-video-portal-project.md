@@ -55,7 +55,7 @@ Each PoC demo is delivered as a container image and deployed on the Kubernetes p
 	https://github.com/liangliang1120/iOS-app/assets/35073431/8102743b-1f71-4d7c-bdfc-eb0a4cc403f8
 	https://github.com/liangliang1120/iOS-app/assets/35073431/3b667735-8869-4592-a989-37687c5c780c
 {% endcapture %}
-{% include gallery images=images caption="Test images" cols=2 %}
+{% include gallery images=images caption="app for Kubernetes API and official GitHub API examples" cols=2 %}
 
 ##### Experimented 4 with Pythons scripts:
 1. Use a **YAML file** to **apply “resource” to Kubernetes**
@@ -81,16 +81,16 @@ Each PoC demo is delivered as a container image and deployed on the Kubernetes p
 - Get a pre-signed URL for video file in MinIO source bucket
 - Kubernetes API to trigger a Job for video processing (YAML)
 - Video Processor container (3 tasks):
-- 1. Transcoding Video in h.264
-- 2. Transcoding Video in h.265
-- 3. Transcribing Audio into text (in WebVTT)
+- - Transcoding Video in h.264
+- - Transcoding Video in h.265
+- - Transcribing Audio into text (in WebVTT)
 - Real-time response of a K8s Pod. Use StreamingHttpResponse API, and JavaScript code to create an EventSource object from the Django template
 {% capture images %}
 	https://github.com/liangliang1120/iOS-app/assets/35073431/05732def-1c2a-4eff-bc6e-9474a0e519ec
 	https://github.com/liangliang1120/iOS-app/assets/35073431/f08c566d-02d8-46c7-ae36-723417445e28
   https://github.com/liangliang1120/iOS-app/assets/35073431/8ca40a59-6b91-4e1f-89ed-1ac78a731c0e
 {% endcapture %}
-{% include gallery images=images caption="Test images" cols=3 %}
+{% include gallery images=images caption="app for trigger video processing, MinIO shared link, expected result" cols=3 %}
 
 ## PoC5: Implementing a Video Portal with thumbnail and preview functionality.
 - Implement a Web Portal to present a list of processed videos in a YouTube-like UI
