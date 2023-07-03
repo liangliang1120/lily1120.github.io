@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Egg Timer"
+title:  "iOS Egg Timer"
 date:   2022-12-10
 excerpt: ""
 tag:
