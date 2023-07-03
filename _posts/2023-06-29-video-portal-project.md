@@ -11,7 +11,7 @@ tag:
 - Kubernetes
 - Ingress
 - Docker
-comments: true
+comments: False
 ---
 ![image](https://github.com/liangliang1120/iOS-app/assets/35073431/be92f86f-af99-40b0-8ea6-41afb4be76e3)
 ## Video Portal for video transcoding and audio transcribing
