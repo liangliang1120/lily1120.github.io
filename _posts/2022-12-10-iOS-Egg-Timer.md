@@ -2,7 +2,7 @@
 layout: post
 title:  "iOS Egg Timer app"
 date:   2022-12-10
-excerpt: ""
+excerpt: "An application for different kinds of eggs, a countdown timer. Will alarm you when it's done."
 tag:
 - iOS
 comments: true
