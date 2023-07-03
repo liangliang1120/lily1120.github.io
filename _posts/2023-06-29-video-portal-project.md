@@ -96,7 +96,7 @@ Each PoC demo is delivered as a container image and deployed on the Kubernetes p
 - Implement a Web Portal to present a list of processed videos in a YouTube-like UI
 - Enhance the audience experience with JavaScript (Thumbnail and animated preview GIF)
 - A HTML5 video player supporting both HLS and DASH video streaming
-![image](https://github.com/liangliang1120/iOS-app/assets/35073431/1a225800-b8e6-4b82-ab48-a58f59cca5b9)
+![poc5](https://github.com/liangliang1120/iOS-app/assets/35073431/be04bdda-954f-4eec-b079-9dd8bf29dc04)
 
 ## PoC6: Retrieving files from MinIO bucket to VOD pod on Kubernetes via Django.
 Retrieve video from MinIO bucket and transfer to VOD Pod in Kubernetes (use MinIO API and K8s API for transferring files)
