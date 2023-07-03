@@ -34,17 +34,69 @@ The project is broken down into multiple phases and delivered with PoCs weekly.
 - PoC5: Implementing a Video Portal with thumbnail and preview functionality.
 - PoC6: Retrieving files from MinIO bucket to VOD pod on Kubernetes via Django.
 
+Each PoC demo is delivered as a container image and deployed on the Kubernetes platform.
+
 
 ---
 ## PoC1: Django and PostgreSQL for SQL queries.
-Design and test SQL queries of database for transcoding video jobs
+- Design and test SQL queries of database for transcoding video jobs
+{% capture images %}
+	https://github.com/liangliang1120/iOS-app/assets/35073431/c873a034-f12f-404f-93e3-4c7d19006423
+	https://github.com/liangliang1120/iOS-app/assets/35073431/5a39a20b-8c17-474b-b5b6-d072930ec72c
+{% endcapture %}
+{% include gallery images=images caption="Test images" cols=2 %}
+
 
 ## PoC2: Django and Kubernetes API integration with RBAC credentials.
-Use RBAC( Role-Based Access Control) credential for Kubernetes workload requests, status, and logs
-Integration with Kubernetes API for workload management
-Invoke Kubernetes API to create a job
+- Use RBAC( Role-Based Access Control) credential for Kubernetes workload requests, status, and logs
+- Integration with Kubernetes API for workload management
+- Invoke Kubernetes API to create a job
 {% capture images %}
 	https://github.com/liangliang1120/iOS-app/assets/35073431/8102743b-1f71-4d7c-bdfc-eb0a4cc403f8
 	https://github.com/liangliang1120/iOS-app/assets/35073431/3b667735-8869-4592-a989-37687c5c780c
 {% endcapture %}
 {% include gallery images=images caption="Test images" cols=2 %}
+
+##### Experimented 4 with Pythons scripts:
+1. Use a **YAML file** to **apply “resource” to Kubernetes**
+- yaml_file = '/Users/lgu/Documents/PycharmProjects/pythonProject/job2.yml’
+- utils.create_from_yaml(aApiClient,yaml_file,verbose=True,namespace="poc2test")
+2. Use **V1 API** to apply k8s **Job crud**
+- api_response = api_instance.create_namespaced_job(body=job,namespace="poc2test")
+- api_response = api_instance.read_namespaced_job_status(name=..,namespace=..)
+- api_response = api_instance.patch_namespaced_job(…)
+- api_instance.delete_namespaced_job(…)
+3. Use **V1 API** to **apply k8s deployment**
+- k8s_apps_v1.create_namespaced_deployment(body=dep, namespace="poc2test")
+4. Show the **log** in a Kubernetes **Pod**
+- api_instance.read_namespaced_pod_status(name, namespace)
+
+## PoC4: Kubernetes API to trigger video processing.
+- Get a pre-signed URL for video file in MinIO source bucket
+- Kubernetes API to trigger a Job for video processing (YAML)
+- Video Processor container (3 tasks):
+- 1. Transcoding Video in h.264
+- 2. Transcoding Video in h.265
+- 3. Transcribing Audio into text (in WebVTT)
+- Real-time response of a K8s Pod. Use StreamingHttpResponse API, and JavaScript code to create an EventSource object from the Django template
+{% capture images %}
+	https://github.com/liangliang1120/iOS-app/assets/35073431/05732def-1c2a-4eff-bc6e-9474a0e519ec
+	https://github.com/liangliang1120/iOS-app/assets/35073431/f08c566d-02d8-46c7-ae36-723417445e28
+  https://github.com/liangliang1120/iOS-app/assets/35073431/8ca40a59-6b91-4e1f-89ed-1ac78a731c0e
+{% endcapture %}
+{% include gallery images=images caption="Test images" cols=3 %}
+
+## PoC5: Implementing a Video Portal with thumbnail and preview functionality.
+- Implement a Web Portal to present a list of processed videos in a YouTube-like UI
+- Enhance the audience experience with JavaScript (Thumbnail and animated preview GIF)
+- A HTML5 video player supporting both HLS and DASH video streaming
+![image](https://github.com/liangliang1120/iOS-app/assets/35073431/1a225800-b8e6-4b82-ab48-a58f59cca5b9)
+
+## PoC6: Retrieving files from MinIO bucket to VOD pod on Kubernetes via Django.
+Retrieve video from MinIO bucket and transfer to VOD Pod in Kubernetes (use MinIO API and K8s API for transferring files)
+Provide content to VOD Pod for VOD streaming
+![image](https://github.com/liangliang1120/iOS-app/assets/35073431/b93ff806-9a2f-4832-a970-c3e6f111a431)
+
+## Final: Integrate all PoCs into a Video Portal
+Upload video to Object bucket and submit a video processor pod to transcode video and transcribe audio for subtitle
+![image](https://github.com/liangliang1120/iOS-app/assets/35073431/443a9d08-0e7e-409e-8f62-a8c24f5d958c)
