@@ -71,6 +71,12 @@ Each PoC demo is delivered as a container image and deployed on the Kubernetes p
 4. Show the **log** in a Kubernetes **Pod**
 - api_instance.read_namespaced_pod_status(name, namespace)
 
+## PoC3: HTML form with pre-signed URL for uploading files to Object storage (MinIO).
+- Upload video files to MinIO using Django backend with MinIO API
+- Create an HTML form, get the MinIO bucket list, and return the upload status
+- Get a pre-signed URL for uploading files
+![image](https://github.com/liangliang1120/iOS-app/assets/35073431/78369bdd-f5aa-442c-b925-16f035312e7d)
+
 ## PoC4: Kubernetes API to trigger video processing.
 - Get a pre-signed URL for video file in MinIO source bucket
 - Kubernetes API to trigger a Job for video processing (YAML)
