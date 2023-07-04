@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Video Portal Project"
+title:  "Reservation System Project"
 date:   2022-07-15
-excerpt: "An online pet service ordering website with admin portal to manage the employees' performance."
+excerpt: "Java, Spring Boot, MySQL, React<br> An online pet service ordering website with admin portal to manage the employees' performance."
 project: true
 tag:
 - Java
@@ -12,7 +12,7 @@ tag:
 comments: False
 ---
 
-## Video Portal for video transcoding and audio transcribing
+## Reservation System with admin portal to manage the employees' performance
 
 ### Project Overview:
 An online pet service ordering website with admin portal to manage the employees' performance.
