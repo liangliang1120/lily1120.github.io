@@ -2,8 +2,7 @@
 layout: post
 title:  "Video Portal Project"
 date:   2023-06-29
-excerpt: "![image](https://github.com/liangliang1120/iOS-app/assets/35073431/be92f86f-af99-40b0-8ea6-41afb4be76e3)<br>
-Django, PostgreSQL, Object Storage, Kubernetes, Ingress, Docker<br> A video protal using Django and PostgreSQL, triggering Kubernetes container for video transcoding and audio transcribing."
+excerpt: "<b>Django, PostgreSQL, Object Storage, Kubernetes, Ingress, Docker</b><br> A video protal using Django and PostgreSQL, triggering Kubernetes container for video transcoding and audio transcribing."
 project: true
 tag:
 - Django
@@ -12,6 +11,8 @@ tag:
 - Kubernetes
 - Ingress
 - Docker
+- Linux
+- Git
 comments: False
 ---
 ![image](https://github.com/liangliang1120/iOS-app/assets/35073431/be92f86f-af99-40b0-8ea6-41afb4be76e3)
