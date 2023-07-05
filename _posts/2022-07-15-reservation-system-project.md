@@ -2,7 +2,8 @@
 layout: post
 title:  "Reservation System Project"
 date:   2022-07-15
-excerpt: "Java, Spring Boot, MySQL, React<br> An online pet service ordering website with admin portal to manage the employees' performance."
+excerpt: "<b>Java, Spring Boot, MySQL, React</b><br> 
+An online pet service ordering website with admin portal to manage the employees' performance."
 project: true
 tag:
 - Java
