@@ -73,7 +73,7 @@ class Solution:
         return self.res
 ~~~
 
-### [94 binary tree inorder traversal]# Definition for a binary tree node.
+### [94 binary tree inorder traversal](https://github.com/liangliang1120/leetcode/blob/main/solutions/0094-Binary-Tree-Inorder-Traversal.py)
 - time: O(n), space: O(height)
 
 ~~~ python
@@ -92,3 +92,6 @@ class Solution:
         return res
 ~~~
 
+### [110. Balanced Binary Tree](https://github.com/liangliang1120/leetcode/blob/main/solutions/0110-Balanced-Binary-Tree.py)
+- the same method as 104 for depth -> diff depth
+- abs(height_diff) <= 1 and self.isBalanced(root.left) and self.isBalanced(root.right)

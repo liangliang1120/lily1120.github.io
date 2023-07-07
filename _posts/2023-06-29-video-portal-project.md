@@ -2,7 +2,7 @@
 layout: post
 title:  "Video Portal Project"
 date:   2023-06-29
-excerpt: "<b>Django, PostgreSQL, Object Storage, Kubernetes, Ingress, Docker</b><br> A video protal using Django and PostgreSQL, triggering Kubernetes container for video transcoding and audio transcribing."
+excerpt: "<b>[Django, PostgreSQL, Object Storage, Kubernetes, Ingress, Docker]</b><br> A video portal using Django and PostgreSQL, triggering Kubernetes container for video transcoding and audio transcribing."
 project: true
 tag:
 - Django
