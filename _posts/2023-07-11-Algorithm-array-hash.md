@@ -30,4 +30,4 @@ Set<Integer> set = new HashSet<Integer>();
 - len(s) != len(t)? shash = defaultdict(int); for sn in s: shash[sn] += 1, return thash == shash
 - s.length() != t.length()? Map<Character, Integer> shash = new HashMap<>();for (char c : s.toCharArray()) {shash.put(c, shash.getOrDefault(c, 0) + 1);} return thash.equals(shash);
 
-
+### [1. Two Sum](https://github.com/liangliang1120/leetcode/blob/main/solutions/0001-Two-Sum.py)
