@@ -31,3 +31,7 @@ Set<Integer> set = new HashSet<Integer>();
 - s.length() != t.length()? Map<Character, Integer> shash = new HashMap<>();for (char c : s.toCharArray()) {shash.put(c, shash.getOrDefault(c, 0) + 1);} return thash.equals(shash);
 
 ### [1. Two Sum](https://github.com/liangliang1120/leetcode/blob/main/solutions/0001-Two-Sum.py)
+- Map<Integer, Integer> hash = new HashMap<>();
+- hash.containsKey(target - value_i)
+- return new int[] { i, hash.get(target - value_i) };
+- hash.put(value_i, i);
