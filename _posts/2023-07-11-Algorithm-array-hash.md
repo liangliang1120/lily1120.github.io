@@ -35,3 +35,8 @@ Set<Integer> set = new HashSet<Integer>();
 - hash.containsKey(target - value_i)
 - return new int[] { i, hash.get(target - value_i) };
 - hash.put(value_i, i);
+
+## [49 Group Anagrams](https://github.com/liangliang1120/leetcode/blob/main/solutions/0049-Group-Anagrams.py)
+- 26 characters: key is the [0]*26, each digit represent the a-z [!!!tuple the list as the dict key]
+- time: O(mn26),M is the number of words,n is the average length of a word,
+- space: O(mk), M is the number of words,k is the longest length of the words in str
