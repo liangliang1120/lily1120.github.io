@@ -49,7 +49,12 @@ Set<Integer> set = new HashSet<Integer>();
 - compute the prefix and postfix and then get the outcome
 - Time: O(n), Space: O(n)
 
-
+## [36. Valid Sudoku](https://github.com/liangliang1120/leetcode/blob/main/solutions/0036-Valid-Sudoku.py)
+- Each row must contain the digits 1-9 without repetition.
+- Each column must contain the digits 1-9 without repetition.
+- Each of the nine 3 x 3 sub-boxes of the grid must contain the digits 1-9 without repetition.
+- define 3 rules as defaultdict(set)
+- Time: O(n), Space: O(n)   
 
 
 
