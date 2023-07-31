@@ -40,3 +40,7 @@ Set<Integer> set = new HashSet<Integer>();
 - 26 characters: key is the [0]*26, each digit represent the a-z [!!!tuple the list as the dict key]
 - time: O(mn26),M is the number of words,n is the average length of a word,
 - space: O(mk), M is the number of words,k is the longest length of the words in str
+
+## [347 Top K Frequent Elements](https://github.com/liangliang1120/leetcode/blob/main/solutions/0347-Top-K-Frequent-Elements.py)
+- count hashmap, frequency hashmap, from top frequency to 0 for loop to add res untill the end
+- Time: O(n), Space: O(n)
