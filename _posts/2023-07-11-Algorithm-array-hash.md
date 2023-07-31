@@ -44,3 +44,14 @@ Set<Integer> set = new HashSet<Integer>();
 ## [347 Top K Frequent Elements](https://github.com/liangliang1120/leetcode/blob/main/solutions/0347-Top-K-Frequent-Elements.py)
 - count hashmap, frequency hashmap, from top frequency to 0 for loop to add res untill the end
 - Time: O(n), Space: O(n)
+
+## [238. Product of Array Except Self](https://github.com/liangliang1120/leetcode/blob/main/solutions/0238-Product-of-Array-Except-Self.py)
+- compute the prefix and postfix and then get the outcome
+- Time: O(n), Space: O(n)
+
+
+
+
+
+
+
