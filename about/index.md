@@ -30,7 +30,7 @@ Ampere Computing, Santa Clara, CA, 01/2023 – 08/2023
 - Implemented an automated performance profiling system for online server cluster to effectively monitor and manage the hardware status, resulting in a significant cost reduction of 10%
 
 **Software Engineer**
-BaoJin Information Technology Co., Ltd., Shanghai, China, 07/2020 – 12/2021
+BaoJin Information Technology, Shanghai, China, 07/2020 – 12/2021
 - Developed tool to ensure and improve the data integrity for financial data, empowered by the Spring framework, Mybatis. And utilized Kafka to secure data transmission and recovery.
 - Designed and implemented Django-based APIs to significantly accelerate stock indicator checking process, reducing time required by 2 hours per day.
 
