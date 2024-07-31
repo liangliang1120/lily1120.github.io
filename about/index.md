@@ -20,10 +20,11 @@
 
 ## WORK EXPERIENCE
 **Software Engineer** 
+Ampere Computing, Santa Clara, CA
 - 10/2023 – present
 **Software Engineer Intern**
+Ampere Computing, Santa Clara, CA
 - 01/2023 – 08/2023
-- Ampere Computing, Santa Clara, CA
 - Developed video transcoding and transcription process and build docker images for aarch64 and x86. Deployed on Kubernetes cluster.
 - Developed Efficiency Control dashboard for monitoring CPU Utilization, Server Power Consumption and different application benchmark performance data.
 - Developed cloud-based video streaming service demo with Kubernetes. Tutorial published on website. Develop a video portal using Django Framework with object storage and Kubernetes task trigger.
