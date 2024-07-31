@@ -20,27 +20,23 @@
 
 ## WORK EXPERIENCE
 **Software Engineer** 
-Ampere Computing, Santa Clara, CA
-- 10/2023 – present
+Ampere Computing, Santa Clara, CA, 10/2023 – present
 
 **Software Engineer Intern**
-Ampere Computing, Santa Clara, CA
-- 01/2023 – 08/2023
+Ampere Computing, Santa Clara, CA, 01/2023 – 08/2023
 - Developed video transcoding and transcription process and build docker images for aarch64 and x86. Deployed on Kubernetes cluster.
 - Developed Efficiency Control dashboard for monitoring CPU Utilization, Server Power Consumption and different application benchmark performance data.
 - Developed cloud-based video streaming service demo with Kubernetes. Tutorial published on website. Develop a video portal using Django Framework with object storage and Kubernetes task trigger.
 - Implemented an automated performance profiling system for online server cluster to effectively monitor and manage the hardware status, resulting in a significant cost reduction of 10%
 
 **Software Engineer**
-BaoJin Information Technology Co., Ltd., Shanghai, China
-- 07/2020 – 12/2021
+BaoJin Information Technology Co., Ltd., Shanghai, China, 07/2020 – 12/2021
 - Developed tool to ensure and improve the data integrity for financial data, empowered by the Spring framework, Mybatis. And utilized Kafka to secure data transmission and recovery.
 - Designed and implemented Django-based APIs to significantly accelerate stock indicator checking process, reducing time required by 2 hours per day.
 
 
 **Software Engineer**
-ChenYuan Financial Information Technology Co., Ltd, Shanghai, China
-- 05/2018 – 07/2020
+ChenYuan Financial Information Technology, Shanghai, China, 05/2018 – 07/2020
 - Set up pipeline to process real-time trading records and auto-generate user trading reports which were delivered to subscribing mailboxes. Implemented the online trading strategies and conducted the fine-tuning process to optimize the models based on historical data.
 - Designed and implemented web crawler to collect crypto price data on daily basis for correlation analysis.
 - Built dashboards to monitor key financial statistics including trading profits, transaction volumes, etc.
