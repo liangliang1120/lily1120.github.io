@@ -22,6 +22,7 @@
 **Software Engineer** 
 Ampere Computing, Santa Clara, CA
 - 10/2023 – present
+
 **Software Engineer Intern**
 Ampere Computing, Santa Clara, CA
 - 01/2023 – 08/2023
