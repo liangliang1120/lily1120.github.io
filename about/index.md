@@ -36,7 +36,7 @@ BaoJin Information Technology Co., Ltd., Shanghai, China
 - Designed and implemented Django-based APIs to significantly accelerate stock indicator checking process, reducing time required by 2 hours per day.
 
 
-**Quantitative Engineer**
+**Software Engineer**
 ChenYuan Financial Information Technology Co., Ltd, Shanghai, China
 - 05/2018 – 07/2020
 - Set up pipeline to process real-time trading records and auto-generate user trading reports which were delivered to subscribing mailboxes. Implemented the online trading strategies and conducted the fine-tuning process to optimize the models based on historical data.
