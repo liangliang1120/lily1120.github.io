@@ -19,9 +19,13 @@
 - 09/2013 – 06/2017
 
 ## WORK EXPERIENCE
+**Software Engineer**
+- 10/2023 – present
 **Software Engineer Intern**
 Ampere Computing, Santa Clara, CA
-- 01/2023 – 06/2023
+- 01/2023 – 08/2023
+- Developed video transcoding and transcription process and build docker images for aarch64 and x86. Deployed on Kubernetes cluster.
+- Developed Efficiency Control dashboard for monitoring CPU Utilization, Server Power Consumption and different application benchmark performance data.
 - Developed cloud-based video streaming service demo with Kubernetes. Tutorial published on website. Develop a video portal using Django Framework with object storage and Kubernetes task trigger.
 - Implemented an automated performance profiling system for online server cluster to effectively monitor and manage the hardware status, resulting in a significant cost reduction of 10%
 
@@ -31,22 +35,17 @@ BaoJin Information Technology Co., Ltd., Shanghai, China
 - Developed tool to ensure and improve the data integrity for financial data, empowered by the Spring framework, Mybatis. And utilized Kafka to secure data transmission and recovery.
 - Designed and implemented Django-based APIs to significantly accelerate stock indicator checking process, reducing time required by 2 hours per day.
 
-**Software Engineer**
-Zali E-Commerce Co., Ltd, Shanghai, China
-- 10/2019 – 04/2020
-- Designed and implemented APIs to support social community features, which improved user engagement and enriched experience of e-commerce platform.
-- Analyzed large amount of user behavior tracking data to get user portraits to support better ads targeting, optimization, machine learning and feature A/B testing. This data-driven approach resulted in notable 15% increase in transaction rates.
 
 **Quantitative Engineer**
 ChenYuan Financial Information Technology Co., Ltd, Shanghai, China
-- 05/2018 – 10/2019
+- 05/2018 – 07/2020
 - Set up pipeline to process real-time trading records and auto-generate user trading reports which were delivered to subscribing mailboxes. Implemented the online trading strategies and conducted the fine-tuning process to optimize the models based on historical data.
 - Designed and implemented web crawler to collect crypto price data on daily basis for correlation analysis.
 - Built dashboards to monitor key financial statistics including trading profits, transaction volumes, etc.
 
 ## PROJECT EXPERIENCE
 **Video on Demand System**
-- 01/2023 – 05/2023
+- 01/2023 – 01/2024
 - A demo project of YouTube-like portal with Django, PostgreSQL and MinIO on Kubernetes.
 - Technology stack involved: **Kubernetes, Cloud, Django, HTML, CSS, Prometheus, Grafana**
 - Trigger Kubernetes task to process video and streaming video. Show processes and status of Pod.
